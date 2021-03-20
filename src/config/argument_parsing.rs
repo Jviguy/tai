@@ -132,6 +132,9 @@ fn check_style_arg(arg: &str) -> Style {
         "braille" => Style::Braille,
         "numbers" => Style::Numbers,
         "onechar" => Style::OneChar,
+        "69" => Style::SixNine,
+        "sixnine" => Style::SixNine,
+        "sexos" => Style::SexOS,
         _ => Style::Braille,
     }
 }

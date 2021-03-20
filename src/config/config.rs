@@ -8,6 +8,8 @@ pub enum Style {
     Braille,
     Numbers,
     OneChar,
+    SexOS,
+    SixNine,
 }
 
 #[derive(Debug)]

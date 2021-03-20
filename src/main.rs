@@ -39,5 +39,13 @@ fn main() {
             let table = vec![' ', '░', '▒', '▓', '█'];
             img_to_ascii(config, &table);
         }
+        Style::SexOS => {
+            let table = vec!['s', 'e', 'x', 'o', 's', '6', '9', 'c', 'u', 'm'];
+            img_to_ascii(config, &table);
+        }
+        Style::SixNine => {
+            let table = vec!['6', '9'];
+            img_to_ascii(config, &table);
+        }
     };
 }
